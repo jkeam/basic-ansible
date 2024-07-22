@@ -3,14 +3,20 @@
       "title": "Granite",
       "provider": "openai",
       "model": "/mnt/models/",
-      "apiBase": "http://granite-predictor.jkeam.svc.cluster.local/v1"
+      "apiBase": "http://granite-predictor.jkeam.svc.cluster.local/v1",
+      "requestOptions": {
+        "caBundlePath": "./cert.pem"
+      }
   }],
   "customCommands": [],
   "tabAutocompleteModel": {
     "title": "Granite",
     "provider": "openai",
     "model": "/mnt/models/",
-    "apiBase": "http://granite-predictor.jkeam.svc.cluster.local/v1"
+    "apiBase": "http://granite-predictor.jkeam.svc.cluster.local/v1",
+    "requestOptions": {
+      "caBundlePath": "./cert.pem"
+    }
   },
   "allowAnonymousTelemetry": false
 }
