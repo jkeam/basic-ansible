@@ -1,0 +1,14 @@
+---
+mock_modules:
+  - community.okd.k8s
+
+mock_roles:
+  - backup_file
+
+exclude_paths:
+  - devfile.yml
+  - syntax_highlighting_demo.yml
+
+warn_list:
+  - galaxy[no-changelog]  # TODO: Implement changelog.
+  - schema[meta-runtime]  # TODO: Implement meta/runtime.yml

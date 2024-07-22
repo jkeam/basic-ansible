@@ -1,0 +1,16 @@
+{
+  "models": [{
+      "title": "Granite",
+      "provider": "openai",
+      "model": "/mnt/models/",
+      "apiBase": "https://example.com/v1"
+  }],
+  "customCommands": [],
+  "tabAutocompleteModel": {
+    "title": "Granite",
+    "provider": "openai",
+    "model": "/mnt/models/",
+    "apiBase": "https://example.com/v1"
+  },
+  "allowAnonymousTelemetry": false
+}
