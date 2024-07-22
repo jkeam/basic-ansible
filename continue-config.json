@@ -3,14 +3,14 @@
       "title": "Granite",
       "provider": "openai",
       "model": "/mnt/models/",
-      "apiBase": "https://example.com/v1"
+      "apiBase": "http://granite-predictor.jkeam.svc.cluster.local/v1"
   }],
   "customCommands": [],
   "tabAutocompleteModel": {
     "title": "Granite",
     "provider": "openai",
     "model": "/mnt/models/",
-    "apiBase": "https://example.com/v1"
+    "apiBase": "http://granite-predictor.jkeam.svc.cluster.local/v1"
   },
   "allowAnonymousTelemetry": false
 }
